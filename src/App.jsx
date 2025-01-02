@@ -78,6 +78,10 @@ function App() {
         return "src/assets/snow.png"; // Path to your snowy weather icon
       case "Haze":
         return "src/assets/haze.png";
+      case "Fog":
+        return "src/assets/fog.png";
+      case "Smoke":
+        return "src/assets/smoke.png"; 
       case "Rain":
         return "src/assets/rain.png";
       case "Clouds":
