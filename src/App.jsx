@@ -85,7 +85,7 @@ function App() {
       case "Rain":
         return "src/assets/rain.png";
       case "Clouds":
-        return "src/assets/is.jpg";
+        return "src/assets/clouds.png";
       case "Thunder":
         return "src/assets/thunder.png"; 
       case "Tornado":
