@@ -69,27 +69,27 @@ function App() {
   const getWeatherIconUrl = (main) => {
     switch (main) {
       case "Clear":
-        return "src/assets/clear.png";
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/clear.png";
       case "Sun":
-        return "src/assets/sun.png"; // Path to your sunny weather icon
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/sun.png"; // Path to your sunny weather icon
       case "Mist":
-        return "src/assets/mist.png"; // Path to your rainy weather icon
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/mist.png"; // Path to your rainy weather icon
       case "Snow":
-        return "src/assets/snow.png"; // Path to your snowy weather icon
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/snow.png"; // Path to your snowy weather icon
       case "Haze":
-        return "src/assets/haze.png";
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/haze.png";
       case "Fog":
-        return "src/assets/fog.png";
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/fog.png";
       case "Smoke":
-        return "src/assets/smoke.png"; 
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/smoke.png"; 
       case "Rain":
-        return "src/assets/rain.png";
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/rain.png";
       case "Clouds":
-        return "src/assets/clouds.png";
-      case "Thunder":
-        return "src/assets/thunder.png"; 
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/clouds.png";
+      case "Thunderstorm":
+        return "https://weather-3d-app.s3.us-east-1.amazonaws.com/thunder.jpg"; 
       case "Tornado":
-          return "src/assets/tornado.png";// Path to your haze weather icon
+          return "https://weather-3d-app.s3.us-east-1.amazonaws.com/tornado.png";// Path to your haze weather icon
       // Add more cases for other weather conditions as needed
       default:
         return null;
